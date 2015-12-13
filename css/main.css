@@ -1,5 +1,15 @@
+@font-face {
+  font-family: 'Avenir LT Std 45 Book';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/AvenirLTStd-Book.woff') format('woff');
+}
 html, body {
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Avenir LT Std 45 Book';
   color: #f1f1f2;
 }
 
@@ -43,6 +53,7 @@ nav a {
 
 .about-info {
   width: 70%;
+  height: 70%;
   position: relative;
   display: inline-block;
 }
