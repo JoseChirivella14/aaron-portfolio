@@ -1,0 +1,33 @@
+html, body {
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 4em;
+}
+/* Nav */
+nav ul {
+  float: right;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+}
+
+/* Top Container */
+.top-container {
+  position: relative;
+  width: 100%;
+  height: 34em;
+  background-color: grey;
+}
+/* About container */
+.about-container {
+  position: relative;
+  width: 100%;
+  height: 12em;
+  background-color: pink;
+}
