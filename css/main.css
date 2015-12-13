@@ -19,6 +19,16 @@ header {
   height: 4.5em;
   background-color: #878787;
 }
+
+.logo {
+  display: inline;
+}
+
+.logo img {
+  width: 12%;
+  position: absolute;
+  bottom: 0;
+}
 /* Nav */
 nav ul {
   float: right;
