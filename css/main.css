@@ -21,6 +21,13 @@ nav li {
 .top-container {
   position: relative;
   width: 100%;
-  min-height: 34em;
+  height: 34em;
   background-color: grey;
+}
+/* About container */
+.about-container {
+  position: relative;
+  width: 100%;
+  height: 12em;
+  background-color: pink;
 }
