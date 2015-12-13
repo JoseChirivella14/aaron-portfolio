@@ -1,0 +1,13 @@
+html, body {
+  box-sizing: border-box;
+}
+
+/* Nav */
+nav ul {
+  float: right;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+}
