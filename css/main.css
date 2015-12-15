@@ -5,7 +5,7 @@
   src: url('../fonts/AvenirLTStd-Book.woff') format('woff');
 }
 html, body {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 body {
@@ -57,19 +57,15 @@ nav a {
 .about-container {
   position: relative;
   width: 100%;
-  height: 20.5em;
   background-color: #ffc600;
 }
 
 .about-info {
   width: 70%;
   height: 70%;
-  position: relative;
   display: inline-block;
 }
 .about-info p {
-  position: relative;
-  bottom: 2em;
   font-size: 2em;
   padding-left: 1em;
 }
@@ -77,6 +73,7 @@ nav a {
   width: 29%;
   position: relative;
   display: inline-block;
+  vertical-align: top;
 }
 .about-photo img {
   width: 100%;
