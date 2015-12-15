@@ -87,3 +87,11 @@ nav a {
   border-radius: 50%;
   padding: 1em 0;
 }
+
+/* Footer */
+.footer {
+  height: 3em;
+  text-align: center;
+  padding-top: 2em;
+  background-color: #878787;
+}
