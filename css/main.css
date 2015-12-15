@@ -25,7 +25,7 @@ header {
 }
 
 .logo img {
-  width: 12%;
+  width: 160px;
   position: absolute;
   bottom: 0;
 }
@@ -59,7 +59,14 @@ nav a {
   width: 100%;
   background-color: #ffc600;
 }
-
+.about-container .title-container {
+  text-transform: uppercase;
+  -webkit-transform: rotate(270deg);
+  font-size: 5.6em;
+  position: absolute;
+  width: 140px;
+  margin: 2.1em 0em;
+}
 .about-info {
   width: 70%;
   height: 70%;
@@ -67,7 +74,7 @@ nav a {
 }
 .about-info p {
   font-size: 2em;
-  padding-left: 1em;
+  padding-left: 4em;
 }
 .about-photo {
   width: 29%;
