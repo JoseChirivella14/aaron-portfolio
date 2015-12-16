@@ -91,8 +91,22 @@ nav a {
 .work-container {
   position: relative;
   width: 100%;
-  height: 20em;
+  min-height: 20em;
   background-color: #878787;
+}
+
+.projects {
+  width:65%;
+  margin: 0 auto;
+}
+.projects-images {
+  width: 200px;
+  height: 150px;
+}
+
+/* Project */
+.project img {
+  width: 30%;
 }
 /* Contact container */
 .contact-container {
