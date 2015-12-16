@@ -53,6 +53,13 @@ nav a {
   height: 34em;
   background-color: rgb(179,179,179);
 }
+.slideshow {
+  position: relative;
+  width: 70%;
+}
+.projects-slideshow {
+  width: 20%;
+}
 /* About container */
 .about-container {
   position: relative;
@@ -96,7 +103,7 @@ nav a {
 }
 
 .projects {
-  width:50%;
+  width:72%;
   margin: 0 auto;
 }
 .projects-images {
