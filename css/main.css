@@ -87,6 +87,20 @@ nav a {
   border-radius: 50%;
   padding: 1em 0;
 }
+/* Work container */
+.work-container {
+  position: relative;
+  width: 100%;
+  height: 20em;
+  background-color: #878787;
+}
+/* Contact container */
+.contact-container {
+  position: relative;
+  width: 100%;
+  height: 20em;
+  background-color: #ffc600;
+}
 
 /* Footer */
 .footer {
