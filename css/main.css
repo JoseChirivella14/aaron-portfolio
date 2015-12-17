@@ -92,6 +92,7 @@ nav a {
 .about-info p {
   font-size: 2em;
   padding-left: 4em;
+  font-weight: bold;
 }
 .about-photo {
   width: 29%;
@@ -110,6 +111,14 @@ nav a {
   width: 100%;
   min-height: 20em;
   background-color: #878787;
+}
+.work-container .title-container {
+  text-transform: uppercase;
+  -webkit-transform: rotate(90deg);
+  font-size: 5.2em;
+  position: absolute;
+  width: 140px;
+  margin: 2.5em 0em 0em 13.5em;
 }
 
 .projects {
@@ -139,6 +148,14 @@ nav a {
   width: 100%;
   min-height: 10em;
   background-color: #ffc600;
+}
+.contact-container .title-container {
+  text-transform: uppercase;
+  -webkit-transform: rotate(270deg);
+  font-size: 4.8em;
+  position: absolute;
+  width: 140px;
+  margin: 3.5em 0em;
 }
 
 .contact-form {
