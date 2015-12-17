@@ -92,6 +92,7 @@ nav a {
 .about-info p {
   font-size: 2em;
   padding-left: 4em;
+  font-weight: bold;
 }
 .about-photo {
   width: 29%;
