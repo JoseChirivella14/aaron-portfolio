@@ -122,8 +122,16 @@ nav a {
 }
 
 /* Project */
+.project-container {
+  background-color: rgb(150,150,150);
+}
+.project {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
 .project img {
-  width: 30%;
+  width: 60%;
 }
 /* Contact container */
 .contact-container {
