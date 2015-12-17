@@ -57,6 +57,7 @@ nav a {
 .top-container h1 {
   margin: 0;
   padding-top: 6.5em;
+  text-transform: uppercase;
 }
 .slideshow {
   overflow: hidden;
@@ -138,6 +139,7 @@ nav a {
 /* Project */
 .project-container {
   background-color: rgb(150,150,150);
+  min-height: 30em;
 }
 .project {
   width: 80%;
