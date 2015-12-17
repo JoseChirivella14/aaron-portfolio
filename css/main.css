@@ -118,12 +118,20 @@ nav a {
 }
 .projects-images {
   width: 300px;
-  height: 250px;
+  height: 300px;
 }
 
 /* Project */
+.project-container {
+  background-color: rgb(150,150,150);
+}
+.project {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
 .project img {
-  width: 30%;
+  width: 60%;
 }
 /* Contact container */
 .contact-container {
@@ -134,12 +142,28 @@ nav a {
 }
 
 .contact-form {
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
-  text-align: center;
+  padding: 1em 0;
   font-size: 2em;
   text-transform: uppercase;
-  display: inline-block;
+}
+.contact-form p {
+  text-align: center;
+  color: rgb(251,130,36);
+}
+.contact-form p:hover {
+  cursor: pointer;
+}
+.contact-form span {
+  vertical-align: top;
+}
+.contact-form-message {
+  margin-top: 5px;
+}
+.contact-form textarea {
+  width: 62%;
+  border: 0px inset;
 }
 .contact-form input {
   margin-left: 1em;
