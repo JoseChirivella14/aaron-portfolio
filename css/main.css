@@ -49,9 +49,14 @@ nav a {
 /* Top Container */
 .top-container {
   position: relative;
+  text-align: center;
   width: 100%;
-  height: 34em;
+  height: 30em;
   background-color: rgb(179,179,179);
+}
+.top-container h1 {
+  margin: 0;
+  padding-top: 6.5em;
 }
 /*.slideshow {
   overflow: hidden;
@@ -179,12 +184,12 @@ nav a {
   margin-top: 5px;
 }
 .contact-form textarea {
-  width: 70.6%;
+  width: 51.4%;
   border: 0px inset;
 }
 .contact-form input {
   margin-left: 5.7em;
-  width: 440px;
+  width: 320px;
   height:30px;
 }
 
