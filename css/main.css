@@ -59,23 +59,8 @@ nav a {
   padding-top: 6.5em;
   text-transform: uppercase;
 }
-.slideshow {
-  overflow: hidden;
-}
 
-.slideshow figure img {
-  width: 20%;
-  float: left;
-}
-.slideshow figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  font-size: 0;
-  text-align: left;
-  animation: 30s slidy infinite;
-}
+
 /* About container */
 .about-container {
   position: relative;
@@ -139,7 +124,7 @@ nav a {
 /* Project */
 .project-container {
   background-color: rgb(150,150,150);
-  min-height: 30em;
+  min-height: 25em;
 }
 .project {
   width: 80%;
@@ -148,6 +133,10 @@ nav a {
 }
 .project img {
   width: 60%;
+}
+
+.project img {
+  display: none;
 }
 /* Contact container */
 .contact-container {
