@@ -220,6 +220,16 @@ nav a {
   100% { left: -400%; }
 }
 
-/*@media (min-width:) {
+@media (min-width:768px) and (max-width: 1096px) {
+  .work-container .title-container {
+    font-size: 8em;
+    margin: 0.8em 0em 0em 7.3em;
+  }
+  .projects {
+    width: 56%;
+  }
 
-}*/
+  .contact-form textarea {
+    width: 59.4%;
+  }
+}
