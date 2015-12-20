@@ -255,3 +255,38 @@ nav a {
     width: 66.4%;
   }
 }
+
+@media (min-width: 1600px) and (max-width: 1965px) {
+  .about-container .title-container {
+    margin: 3.1em 0em;
+  }
+
+  .about-info p {
+    font-size: 3em;
+  }
+
+  .work-container {
+    min-height: 25em;
+    padding: 1em 0;
+  }
+
+  .work-container .title-container {
+    margin: 1.3em 0em 0em 21.3em;
+  }
+
+  .projects {
+    width: 49%;
+  }
+
+  .contact-form {
+    width: 39%;
+  }
+
+  .contact-form input {
+    width: 485px;
+  }
+
+  .contact-form textarea {
+    width: 65.8%;
+  }
+}
