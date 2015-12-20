@@ -220,6 +220,38 @@ nav a {
   100% { left: -400%; }
 }
 
-/*@media (min-width:) {
+/* Small desktop */
+@media (min-width: 768px) and (max-width: 1096px) {
+  .work-container .title-container {
+    font-size: 8em;
+    margin: 0.8em 0em 0em 6.4em;
+  }
+  .projects {
+    width: 63%;
+  }
+  .contact-form {
+    width: 56%;
+  }
+  .contact-form textarea {
+    width: 59.4%;
+  }
 
-}*/
+  .next {
+    right: 6em;
+    top: 8em;
+  }
+
+  .prev {
+    left: 6em;
+    top: 8em
+  }
+}
+@media (min-width: 1277px) and (max-width: 1400px) {
+  .contact-form {
+    width: 39%;
+  }
+
+  .contact-form textarea {
+    width: 66.4%;
+  }
+}
