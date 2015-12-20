@@ -1,13 +1,13 @@
 $(function() {
-    var heroImages = $('.hero-images');
-    var contentIndex = -1;
+  $('.slideshow img:gt(0)').hide();
 
-    function showNextContent() {
-        ++contentIndex;
-        heroImages.eq(contentIndex % heroImages.length)
-            .fadeIn(2000)
-            .delay(2000)
-            .fadeOut(2000, showNextContent);
-    }
-    showNextContent();
+$('.next').click(function() {
+  $('.slideshow img:first-child').fadeOut().next().fadeIn().end().appendTo('.slideshow');
+});
+
+$('.prev').click(function() {
+  $('.slideshow img:first-child').fadeOut();
+  $('.slideshow img:last-child').prependTo('.slideshow').fadeOut();
+  $('.slideshow img:first-child').fadeIn();
+});
 });

@@ -136,7 +136,22 @@ nav a {
 }
 
 .project img {
-  display: none;
+  /*display: none;*/
+}
+.project .fa {
+  font-size: 2em;
+}
+.next {
+  cursor: pointer;
+  position: absolute;
+  right: 13em;
+  top: 13em;
+}
+.prev {
+  cursor: pointer;
+  position: absolute;
+  left: 13em;
+  top: 13em;
 }
 /* Contact container */
 .contact-container {
